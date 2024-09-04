@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+Salt&display=swap" rel="stylesheet');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* corpo */
+.body-image{
+    margin-top: 70px;
+    width: 100%;
+    height: 800px;
+}
+
+/* cabeçalho */
+
+.header {
+    position: fixed;
+    background-image: url("images/bkgdt2.png");
+    background-size: 100%;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    float: right;
+    padding: 15px 500px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.outros-link{
+    font: 400 18px "Oswald", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+ }
+
+.etecia-link{
+    font: 400 28px "Oswald", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:purple;    
+}
+
+/* rodapé */
+
+.footer {
+    background: rgb(70, 67, 67);
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    width: 100%;
+    height: 100px;
+   }
+
+
+.mobile-link{
+    align-items: center;
+    justify-content: start;
+    padding: 20px 100px;
+}
+
+.logo-link{
+  float:center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.insta-link{
+  float: right;
+  align-items: end;
+  margin-right: 80px;
+  margin-top: 10px;
+}
+
+.youtu-link{
+    float: right;
+    align-items: end;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
