@@ -50,37 +50,42 @@
 /* rodapé */
 
 .footer {
-    background: rgb(70, 67, 67);
+    background: rgb(0, 0, 0);
     color: white;
-    padding: 5px 10px;
+    padding: 6px 10px;
     font-weight: bold;
     width: 100%;
-    height: 100px;
+    height: 100%;
+    bottom: 0;
    }
 
-
-.mobile-link{
+ 
+.mbl-link{
     align-items: center;
     justify-content: start;
-    padding: 20px 100px;
+    padding: 0 100px;
 }
 
-.logo-link{
-  float:center;
+.sp-link{
   align-items: center;
   justify-content: center;
-  padding: 10px 0;
+  margin-left:30px ;
+}
+  
+.cps-link{
+  align-items: center;
+  justify-content: center;
 }
 
 .insta-link{
   float: right;
-  align-items: end;
-  margin-right: 80px;
+  align-items: center;
+  margin-right: 10px;
   margin-top: 10px;
 }
 
-.youtu-link{
-    float: right;
+.yt-link{
+    float:right;
     align-items: end;
     margin-right: 10px;
     margin-top: 10px;
