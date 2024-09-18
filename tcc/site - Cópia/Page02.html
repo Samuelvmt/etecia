@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Estilos.css">
+
+  <style>
+    #myHeader {
+      background-color: gray;
+      color: black;
+      padding: 40px;
+      text-align: left;
+    }
+  </style>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Style the header */
+    header {
+      background-color: gray;
+      padding: 30px;
+      text-align: left;
+      font-size: 10px;
+      color: white;
+    }
+
+    /* Create two columns/boxes that floats next to each other */
+    nav {
+      float: left;
+      width: 40%;
+      height: 950px;
+      /* only for demonstration, should be removed */
+      background: white;
+      padding: 45px;
+    }
+
+    /* Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    article {
+      float: left;
+      padding: 45px;
+      width: 60%;
+      background-color: #f1f1f1;
+      height: 950px;
+      /* only for demonstration, should be removed */
+    }
+
+    /* Clear floats after the columns */
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+    @media (max-width: 600px) {
+
+      nav,
+      article {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h2 class="car-title">Fiat</h2>
+  </header>
+
+  <section>
+    <nav>
+      <ul>
+        <li><a href="Carro04.html">
+            <img src="images/carro80.jpg" alt="Fiat Pulse" width:90px;height:80px;">
+            <h2>Fiat Pulse </h2>
+        </li>
+        <li><a href="Carro05.html">
+            <img src="images/carro90.jpg" alt="Fiat Argo" width:90px;height:80px;">
+            <h2>Fiat Argo </h2>
+        </li>
+        <li><a href="Carro09.html">
+            <img src="images/carro70.jpg" alt="Fiat Uno-1" width:90px;height:80px;">
+            <h2>Fiat Uno-1 </h2>
+        </li>
+      </ul>
+    </nav>
+
+    <article>
+
+    </article>
+  </section>
+</body>
+
+</html>
